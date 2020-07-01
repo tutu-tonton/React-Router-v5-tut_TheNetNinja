@@ -11,5 +11,9 @@
 
 ## 26 - Links & NavLinks
 
--   a タグ使うとリクエストが発生してしまう -> Link タグ使う
+-   li タグに a 属性使うとリクエストが発生してしまう -> Link タグ使う
 -   Link - NavLink 違い
+
+## 27 - Programmatic Redirects
+
+-   useHistory を使うことでリダイレクトする
