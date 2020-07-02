@@ -1,6 +1,6 @@
-# :six_pointed_star: React-Router-tut
+# ⚛️ React-Router-tut
 
-[Complete React Tutorial (& Redux) #25 - The React Router
+▶️ [Complete React Tutorial (& Redux) #25 - The React Router
 ](https://www.youtube.com/watch?v=QUz3k2O3ZJU&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG&index=26&t=0s)
 
 ## Router-v5 でリファクタリングしてみる
@@ -22,3 +22,8 @@
 
 -   ラップコンポーネントにいろいろなこと出来る
 -   ✅ ラップコンポーネントが props を受け取るものだった場合の書き方
+
+## 29 Using Axios
+
+-   useEffect にてマウント時にデータフェッチ
+-   ✅axios 使い方

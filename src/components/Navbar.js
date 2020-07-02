@@ -1,13 +1,16 @@
+//========================================
+//  -Route v4- : <Route>の外でprops受け取るには？
+//========================================
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
 const Navbar = () => {
-	const history = useHistory();
+	// const history = useHistory();
 
-	setTimeout(() => {
-		history.push('/about');
-	}, 2000);
+	// setTimeout(() => {
+	// 	history.push('/about');
+	// }, 2000);
 
 	return (
 		<nav className="nav-wrapper red darken-3">
