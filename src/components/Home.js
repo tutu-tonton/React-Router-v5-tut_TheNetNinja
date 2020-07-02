@@ -14,7 +14,7 @@ const Home = () => {
 	const postList = posts.length ? (
 		posts.map((post) => {
 			return (
-				<div className="post cart" key={post.id}>
+				<div className="post card" key={post.id}>
 					<div className="card-content">
 						<span className="card-title">{post.title}</span>
 						<p>{post.body}</p>

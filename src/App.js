@@ -4,6 +4,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Post from './components/Post';
 
 class App extends Component {
 	render() {
@@ -20,6 +21,9 @@ class App extends Component {
 						</Route>
 						<Route path="/contact">
 							<Contact />
+						</Route>
+						<Route path="/:post_id">
+							<Post />
 						</Route>
 					</Switch>
 				</div>

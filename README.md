@@ -27,3 +27,10 @@
 
 -   useEffect にてマウント時にデータフェッチ
 -   ✅axios 使い方
+
+## 30 Route Params part1
+
+-   ✅route parameter とは？
+-   Route からコンポーネントへの渡し方
+-   コンポーネントでの受け取り方
+-   ✅useParams 使い方
