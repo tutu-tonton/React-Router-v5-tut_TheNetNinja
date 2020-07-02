@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const Home = () => {
@@ -16,7 +17,9 @@ const Home = () => {
 			return (
 				<div className="post card" key={post.id}>
 					<div className="card-content">
-						<span className="card-title">{post.title}</span>
+						<Link to={`/${post.id}`}>
+							<span className="card-title">{post.title}</span>
+						</Link>
 						<p>{post.body}</p>
 					</div>
 				</div>
