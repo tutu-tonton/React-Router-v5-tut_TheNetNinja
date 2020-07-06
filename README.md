@@ -7,7 +7,7 @@
 
 ## ** Router-v5 でリファクタリングしてみる **
 
-![]()
+![](https://github.com/tutu-tonton/React-Router-v5-tut_TheNetNinja/blob/master/Jul-06-2020%2015-02-06.gif)
 
 ## 25 - The React Router
 
