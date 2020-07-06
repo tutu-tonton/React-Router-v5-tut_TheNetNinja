@@ -6,6 +6,7 @@ import { Link, NavLink } from 'react-router-dom';
 // import { useHistory } from 'react-router-dom';
 
 const Navbar = () => {
+	// === useHistory使用例 ===
 	// const history = useHistory();
 
 	// setTimeout(() => {
